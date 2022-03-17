@@ -25,3 +25,15 @@
     color: white;
 
 }
+#playstation-plus{
+    background-color:hsl(20deg 2% 74%) ;
+    
+}
+#playstation-plus button{
+    color:hsl(222deg 78% 55%) ;
+    background-color: hsl(220deg 4% 86%);
+    width: auto;
+    padding: 5px ;
+    border: 0px;
+    
+}
