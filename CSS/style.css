@@ -1,0 +1,27 @@
+#jumbotron{
+    background-image:url(../img/jumbo-bg.png);
+    background-position:center;
+    background-size: cover;
+    width: 100%;
+    
+    color: white;
+}
+#jumbotron img{
+    margin-top: 200px;
+    
+}
+#playstation5 .bluetext_mp {
+    color:  hsl(207deg 67% 57%);
+}
+#it-takes-two{
+    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position:center;
+    background-size: cover;
+    color: white;
+    
+}
+#card-new{
+    background-color: hsl(0deg 0% 13%);
+    color: white;
+
+}
