@@ -1,162 +1,201 @@
 :root {
-    --blue: #2d64e6;
-    
-    --red:  #cd3d0f;
-  }
-#jumbotron{
-    background-image:url(../img/jumbo-bg.png);
-    background-position:center;
-    background-size: cover;
-    width: 100%;
-    color: white;
-    margin-top: 90px; 
-    margin-bottom: 40px;
+  --blue: #2d64e6;
+  --red: #cd3d0f;
 }
-#jumbotron img{
-    margin-top: 200px;
+/* jumbotron */
+#jumbotron {
+  background-image: url(../img/jumbo-bg.png);
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 40px;
 }
+#jumbotron img {
+  margin-top: 200px;
+}
+#jumbotron button {
+  background-color: var(--red);
+  color: white;
+}
+/* /jumbotron */
+
 /* cards */
-#cards  {
-   padding: 10px;
-
-
+#cards img{
+    border-radius:0px;
+}
+#cards .img_1_mp {
+  position: relative;
+  cursor: pointer;
+  padding: 2px;
+  border: 2px solid var(--blue);
 }
 #cards .img_1_mp:hover {
-    position:relative;
-    bottom: 10px;
-    right: 0px;
+  bottom: 10px;
+  right: 0px;
+}
+#cards .img_2_mp {
+    position: relative;
     cursor: pointer;
     padding: 2px;
-     border: 2px solid  hsl(207deg 67% 57%) ; 
-}
-#cards .img_2_mp:hover {
-    position:relative;
+    border: 2px solid white;
+  }
+  #cards .img_2_mp:hover {
     bottom: 10px;
     right: 0px;
+    border: 2px solid var(--blue);
+  }
+  #cards .img_3_mp {
+    position: relative;
     cursor: pointer;
     padding: 2px;
-     border: 2px solid  hsl(207deg 67% 57%) ; 
-}
-#cards .img_3_mp:hover {
-    position:relative;
+    border: 2px solid white;
+  }
+  #cards .img_3_mp:hover {
     bottom: 10px;
     right: 0px;
-    cursor: pointer;
-    padding: 2px;
-     border: 2px solid  hsl(207deg 67% 57%) ; 
-}
-#cards .img_4_mp:hover {
-    position:relative;
-    bottom: 10px;
-    right: 0px;
-    cursor: pointer;
-    padding: 2px;
-     border: 2px solid  hsl(207deg 67% 57%) ; 
-}
-#cards .img_5_mp:hover {
-    position:relative;
-    bottom: 10px;
-    right: 0px;
-    cursor: pointer;
-    padding: 2px;
-     border: 2px solid  hsl(207deg 67% 57%) ; 
-}
-#cards .img_6_mp:hover {
-    position:relative;
-    bottom: 10px;
-    right: 0px;
-    cursor: pointer;
-    padding: 2px;
-     border: 2px solid  hsl(207deg 67% 57%) ; 
-}
+    border: 2px solid var(--blue);
+  }
+  
 /* / cards */
 /* playstation5 */
-#playstation5{
-    height: auto;
+
+#playstation5 button {
+  background-color: var(--blue);
+  color: white;
 }
 
 #playstation5 .bluetext_mp {
-    color:  hsl(207deg 67% 57%);
+  color: hsl(207deg 67% 57%);
 }
-#playstation5 .mp_playstation5_img2{
-    opacity: 0.3;
+#playstation5 .mp_playstation5_img2 {
+  opacity: 0.3;
 }
-#playstation5 .mp_playstation5_img2:hover{
-    opacity: 1;
+#playstation5 .mp_playstation5_img2:hover {
+  opacity: 1;
 }
-#playstation5 .mp_playstation5_img3{
-    opacity: 0.3;
+#playstation5 .mp_playstation5_img3 {
+  opacity: 0.3;
 }
-#playstation5 .mp_playstation5_img3:hover{
-    opacity: 1;
+#playstation5 .mp_playstation5_img3:hover {
+  opacity: 1;
 }
-#playstation5 .mp_playstation5_img4{
-    opacity: 0.3;
+#playstation5 .mp_playstation5_img4 {
+  opacity: 0.3;
 }
-#playstation5 .mp_playstation5_img4:hover{
-    opacity: 1;
+#playstation5 .mp_playstation5_img4:hover {
+  opacity: 1;
 }
-#playstation5 .mp_playstation5_img5{
-    opacity: 0.3;
+#playstation5 .mp_playstation5_img5 {
+  opacity: 0.3;
 }
-#playstation5 .mp_playstation5_img5:hover{
-    opacity: 1;
+#playstation5 .mp_playstation5_img5:hover {
+  opacity: 1;
 }
 /* /playstation5 */
 
 /* it-takes-two */
-#it-takes-two{
-    background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position:center;
-    background-size: cover;
-    color: white;
+#it-takes-two {
+  background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
 }
+#it-takes-two button {
+  background-color: var(--red);
+  color: white;
+}
+
 /* /it-takes-two */
 
 /* card-new */
-#card-new{
-    background-color: hsl(0deg 0% 13%);
-    color: white;
+#card-new {
+  background-color: hsl(0deg 0% 13%);
+  color: white;
 }
-#card-new .tony_hawk:hover{
-    box-shadow: 10px 10px 5px rgb(19, 19, 19);
+#card-new .tony_hawk:hover {
+  box-shadow: 10px 10px 5px rgb(19, 19, 19);
+  cursor: pointer;
 }
-#card-new .crash_bandicot:hover{
-    box-shadow: 10px 10px 5px purple;
+#card-new .crash_bandicot:hover {
+  box-shadow: 10px 10px 5px purple;
+  cursor: pointer;
 }
 
 /* /card-new   */
-#playstation-plus{
-    background-color:hsl(20deg 2% 74%) ;
-    
+
+/* playstation 4 */
+#playstation4{
+    margin-top: 40px;
 }
-#playstation-plus button{
-    color:hsl(222deg 78% 55%) ;
-    background-color: hsl(220deg 4% 86%);
-    width: auto;
-    padding: 5px ;
-    border: 0px;
-    
+#playstation4 a {
+  background-color: var(--blue);
+  color: white;
 }
-#playstation-now{
-    background-color:hsl(229deg 46% 16%) ;
-    color: white;
+/* /playstation 4 */
+
+/* playstation plus */
+#playstation-plus {
+  background-color: hsl(20deg 2% 74%);
 }
-footer{
-    padding: 40px 0px ;
-    background-color: hsl(214deg 100% 31%);
-    color: white;
-    
+#playstation-plus button {
+  color: var(--blue);
+  background-color: hsl(220deg 4% 86%);
+  width: auto;
+  padding: 5px;
+  border: 0px;
+}
+/* /playstation plus */
+
+/* playstation store */
+#playstation-store{
+    margin-top:  40px; 
+    margin-bottom:40px ;
+}
+#playstation-store img:hover {
+  cursor: pointer;
+  border: 2px solid var(--blue);
+}
+/* /playstation store */
+
+/* playstation now */
+#playstation-now {
+  background-color: hsl(229deg 46% 16%);
+  color: white;
+}
+#playstation-now img:hover {
+  cursor: pointer;
+}
+/* /playstation now */
+
+/* social-media */
+#social-media{
+    margin-bottom: 40px;
+}
+#social-media img:hover {
+  border-radius: 20%;
+  transition: border-radius 0.5s;
+}
+/* /social-media */
+
+footer {
+  padding: 40px 0px;
+  background-color: hsl(214deg 100% 31%);
+  color: white;
 }
 footer .globe_mp {
-    width: 20px;
+  width: 20px;
 }
-.debug{
-    border: 1px solid green;
+footer .ps_country{
+    margin-bottom: 20px;
 }
-footer ul{
-    list-style-type: none;
+.debug {
+  border: 1px solid green;
 }
-.logosony{
-    width: 100px;
+footer ul {
+  list-style-type: none;
+}
+.logosony {
+  width: 100px;
 }
