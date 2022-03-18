@@ -37,3 +37,25 @@
     border: 0px;
     
 }
+#playstation-now{
+    background-color:hsl(229deg 46% 16%) ;
+    color: white;
+}
+footer{
+    padding: 40px 0px ;
+    background-color: hsl(214deg 100% 31%);
+    color: white;
+    
+}
+footer .globe_mp {
+    width: 20px;
+}
+.debug{
+    border: 1px solid green;
+}
+footer ul{
+    list-style-type: none;
+}
+.logosony{
+    width: 100px;
+}
