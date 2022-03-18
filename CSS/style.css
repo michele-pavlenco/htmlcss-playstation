@@ -1,30 +1,131 @@
+:root {
+    --blue: #2d64e6;
+    
+    --red:  #cd3d0f;
+  }
 #jumbotron{
     background-image:url(../img/jumbo-bg.png);
     background-position:center;
     background-size: cover;
     width: 100%;
-    
     color: white;
+    margin-top: 90px; 
+    margin-bottom: 40px;
 }
 #jumbotron img{
     margin-top: 200px;
-    
 }
+/* cards */
+#cards  {
+   padding: 10px;
+
+
+}
+#cards .img_1_mp:hover {
+    position:relative;
+    bottom: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 2px;
+     border: 2px solid  hsl(207deg 67% 57%) ; 
+}
+#cards .img_2_mp:hover {
+    position:relative;
+    bottom: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 2px;
+     border: 2px solid  hsl(207deg 67% 57%) ; 
+}
+#cards .img_3_mp:hover {
+    position:relative;
+    bottom: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 2px;
+     border: 2px solid  hsl(207deg 67% 57%) ; 
+}
+#cards .img_4_mp:hover {
+    position:relative;
+    bottom: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 2px;
+     border: 2px solid  hsl(207deg 67% 57%) ; 
+}
+#cards .img_5_mp:hover {
+    position:relative;
+    bottom: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 2px;
+     border: 2px solid  hsl(207deg 67% 57%) ; 
+}
+#cards .img_6_mp:hover {
+    position:relative;
+    bottom: 10px;
+    right: 0px;
+    cursor: pointer;
+    padding: 2px;
+     border: 2px solid  hsl(207deg 67% 57%) ; 
+}
+/* / cards */
+/* playstation5 */
+#playstation5{
+    height: auto;
+}
+
 #playstation5 .bluetext_mp {
     color:  hsl(207deg 67% 57%);
 }
+#playstation5 .mp_playstation5_img2{
+    opacity: 0.3;
+}
+#playstation5 .mp_playstation5_img2:hover{
+    opacity: 1;
+}
+#playstation5 .mp_playstation5_img3{
+    opacity: 0.3;
+}
+#playstation5 .mp_playstation5_img3:hover{
+    opacity: 1;
+}
+#playstation5 .mp_playstation5_img4{
+    opacity: 0.3;
+}
+#playstation5 .mp_playstation5_img4:hover{
+    opacity: 1;
+}
+#playstation5 .mp_playstation5_img5{
+    opacity: 0.3;
+}
+#playstation5 .mp_playstation5_img5:hover{
+    opacity: 1;
+}
+/* /playstation5 */
+
+/* it-takes-two */
 #it-takes-two{
     background-image: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position:center;
     background-size: cover;
     color: white;
-    
 }
+/* /it-takes-two */
+
+/* card-new */
 #card-new{
     background-color: hsl(0deg 0% 13%);
     color: white;
-
 }
+#card-new .tony_hawk:hover{
+    box-shadow: 10px 10px 5px rgb(19, 19, 19);
+}
+#card-new .crash_bandicot:hover{
+    box-shadow: 10px 10px 5px purple;
+}
+
+/* /card-new   */
 #playstation-plus{
     background-color:hsl(20deg 2% 74%) ;
     
