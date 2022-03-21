@@ -19,9 +19,10 @@
   transition: all 0.5s;
 }
 .search-click:focus {
-  width: 300px;
-  padding-left: 50px;
-  
+  width: 200px;
+  padding-left: 25px;
+  background-image: url(../img/lens.svg);
+  background-position: left;
 }
 .search-click {
   position: relative;
@@ -33,9 +34,9 @@
   border: 1px solid #ccc;
   outline: none;
   position: absolute;
-  width: 300px;
+  width: 200px;
   height: 50px;
-  left: 0%;
+  left: 2%;
   padding: 10px;
 }
 .search-click{
@@ -44,9 +45,13 @@
   background-repeat: no-repeat;
   position: relative;
 }
-.search-click:focus  {
-  background-image: url(../img/lens.svg);
-  background-position: right;
+header li a.show i.fa-chevron-down{
+  transform: rotate(180deg);
+  transition: 0.5s;
+}
+header i.fa-chevron-down{
+  font-size: 13px;
+
 }
 /*header div ul li {
   position:static;
@@ -95,9 +100,11 @@
     border: 2px solid white;
   }
   #cards .img_2_mp:hover {
+    position: relative;
     bottom: 10px;
     right: 0px;
     border: 2px solid var(--blue);
+    
   }
   #cards .img_3_mp {
     position: relative;
@@ -124,27 +131,35 @@
 }
 #playstation5 .mp_playstation5_img2 {
   opacity: 0.3;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img2:hover {
   opacity: 1;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img3 {
   opacity: 0.3;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img3:hover {
   opacity: 1;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img4 {
   opacity: 0.3;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img4:hover {
   opacity: 1;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img5 {
   opacity: 0.3;
+  transition: 1s;
 }
 #playstation5 .mp_playstation5_img5:hover {
   opacity: 1;
+  transition: 1s;
 }
 /* /playstation5 */
 
@@ -166,14 +181,18 @@
 #card-new {
   background-color: hsl(0deg 0% 13%);
   color: white;
+  
 }
 #card-new .tony_hawk:hover {
   box-shadow: 10px 10px 5px rgb(19, 19, 19);
   cursor: pointer;
+  transition: 0.5s  ;
 }
 #card-new .crash_bandicot:hover {
   box-shadow: 10px 10px 5px purple;
   cursor: pointer;
+transition: 0.5s; 
+
 }
 
 /* /card-new   */
@@ -227,7 +246,7 @@
     margin-bottom: 40px;
 }
 #social-media img:hover {
-  border-radius: 20%;
+  border-radius: 40%;
   transition: border-radius 0.5s;
 }
 /* /social-media */
